@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*
+Theme Name: Twenty Nineteen Child
+Template: twentynineteen
+*/
+
+@import url("../twentynineteen/style.css");
+
+.entry .entry-title a, .site-title a {
+    color: pink !important;    
+}
+
+h1 {
+    color: pink !important;
+}
