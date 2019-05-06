@@ -5,7 +5,7 @@ if ( !function_exists('wine_setup')) :
     {
         
         //enqueue styles
-        wp_enqueue_style('wine-style', get_stylesheet_directory_uri() . '/assets/css/style.css');
+        wp_enqueue_style('wine-style', get_stylesheet_directory_uri() . '/style.css', '', $rand);
         wp_enqueue_style('responsive-nav', get_stylesheet_directory_uri() . '/assets/css/responsive-nav.css');
 
         //enqueue scripts
@@ -25,7 +25,9 @@ if ( !function_exists('wine_setup')) :
 
         //register menus
         register_nav_menus(array(
-            'primary-menu' => __('Primary')
+            'primary-menu' => __('Primary'),
+            'footer-menu' => __('Footer'),
+            'social-menu' => __('Social'),
         ));
 
 
