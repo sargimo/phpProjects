@@ -2,7 +2,7 @@
 <div class="columns">
 <div class="blog-content column is-two-thirds">
     <?php
-    get_template_part('template-parts/content');
+    get_template_part('template-parts/content-single');
     ?>
 </div>
 <div class="sidebar-content is-one-third">

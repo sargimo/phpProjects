@@ -28,4 +28,7 @@
                     <?php the_custom_logo() ?>
                 </div>
             </section>
+        <?php if (is_page()):?> 
+        <h1>I am a page</h1> 
+        <?php endif; ?>
     </header>

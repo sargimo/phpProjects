@@ -57,3 +57,21 @@ if ( !function_exists('wine_widgets_init')) :
 endif;
 
 add_action('widgets_init', 'wine_widgets_init');
+
+if ( !function_exists('wine_create_post_types')) :
+    function wine_create_post_types(){
+        register_post_type(
+            'wine_wines',
+            array('labels' => array(
+                'name' => __('Wines'),
+                'singular_name' => __('Wine')
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'menu_position' => 5,
+            'supports' => array('thumbnail', 'title', 'editor')
+        ));
+    }
+endif;
+
+add_action('init', 'wine_create_post_types');
