@@ -46,32 +46,12 @@ endif;
 
 add_action('wp_enqueue_scripts', 'wine_enqueue_scripts');
 
-if ( !function_exists('wine_widgets_init')) :
-    function wine_widgets_init(){
-        register_sidebar(array(
-            'name'  => __( 'Sidebar name', 'theme_text_domain' ),
-	        'id' => 'sidebar-1',    // ID should be LOWERCASE  ! ! !
-	        'description' => 'Add widgets here'
-        ));
-    }
-endif;
+require_once get_template_directory() . '/inc/widgets.php';
 
-add_action('widgets_init', 'wine_widgets_init');
+require_once get_template_directory() . '/inc/custom-post-types.php';
+ 
+require_once get_template_directory() . '/inc/taxonomies.php';
 
-if ( !function_exists('wine_create_post_types')) :
-    function wine_create_post_types(){
-        register_post_type(
-            'wine_wines',
-            array('labels' => array(
-                'name' => __('Wines'),
-                'singular_name' => __('Wine')
-            ),
-            'public' => true,
-            'has_archive' => true,
-            'menu_position' => 5,
-            'supports' => array('thumbnail', 'title', 'editor')
-        ));
-    }
-endif;
+require_once get_template_directory() . '/inc/custom-meta-boxes.php';
 
-add_action('init', 'wine_create_post_types');
+
