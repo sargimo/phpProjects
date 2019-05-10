@@ -17,7 +17,13 @@
             </div>
             <div class="columns">
                 <div class="column is-4">
-                    <img class="home-image" src="wp-content/themes/winetheme/assets/img/daniel-and-georgia.jpg" alt="Owners Daniel and Georgia">
+                    <!-- <img class="home-image" src="wp-content/themes/winetheme/assets/img/daniel-and-georgia.jpg" alt="Owners Daniel and Georgia"> -->
+                    <?php 
+                    $image = get_theme_mod('home-image1');
+                    ?> <img src=<?php if ($image || is_customize_preview()):
+                        echo $image;
+                    endif;
+                    ?>>
                 </div>
                 <div class="column is-8 home-story-text">
                     <p>
