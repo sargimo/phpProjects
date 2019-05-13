@@ -17,7 +17,7 @@
             </div>
             <div class="columns">
                 <div class="column is-4">
-                    <!-- <img class="home-image" src="wp-content/themes/winetheme/assets/img/daniel-and-georgia.jpg" alt="Owners Daniel and Georgia"> -->
+                <img src="<?php bloginfo('template_directory'); ?>/assets/img/daniel-and-georgia.jpg" alt="Our Mission Image">
                     <?php 
                     $image = get_theme_mod('home-image1');
                     ?> <img src=<?php if ($image || is_customize_preview()):

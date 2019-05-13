@@ -1,5 +1,29 @@
 <!-- Wine theme functions and definitions -->
 <?php
+function create_page($title) {
+      
+    $new_page_title = $title;
+    // $new_page_content = 'This is the page content';
+    $new_page_template = ''; //ex. template-custom.php. Leave blank if you don't want a custom page template.
+  
+    //don't change the code bellow, unless you know what you're doing
+  
+    $page_check = get_page_by_title($new_page_title);
+    $new_page = array(
+        'post_type' => 'page',
+        'post_title' => $new_page_title,
+        // 'post_content' => $new_page_content,
+        'post_status' => 'publish',
+        'post_author' => 1,
+    );
+    if(!isset($page_check->ID)){
+        $new_page_id = wp_insert_post($new_page);
+        if(!empty($new_page_template)){
+            update_post_meta($new_page_id, '_wp_page_template', $new_page_template);
+        }
+    }
+}
+
 if ( !function_exists('wine_setup')) :
     function wine_setup()
     {
@@ -24,6 +48,19 @@ if ( !function_exists('wine_setup')) :
         //set the permalink structure
         global $wp_rewrite;
         $wp_rewrite->set_permalink_structure('/%postname%/');
+
+        //create pages
+        if (isset($_GET['activated']) && is_admin()){
+            $pages = array(
+                array('title' => 'Home'),
+                array('title' => 'Wines'),
+                array('title' => 'About'),
+                array('title' => 'Contact'),
+            );
+            foreach($pages as $page){
+                create_page($page['title']);
+            }
+        }
     }
 
 endif;
@@ -42,6 +79,15 @@ if ( !function_exists('wine_enqueue_scripts')) :
 endif;
 
 add_action('wp_enqueue_scripts', 'wine_enqueue_scripts');
+
+//removing access to page editor unless admin - resource: https://wpmayor.com/how-to-remove-menu-items-in-admin-depending-on-user-role/
+function wine_remove_menu_items() {
+    if(!is_admin()) {
+        remove_menu_page('edit.php?post_type=page');
+    }
+}
+
+add_action('admin_menu', 'wine_remove_menu_items');
 
 require_once get_template_directory() . '/inc/widgets.php';
 

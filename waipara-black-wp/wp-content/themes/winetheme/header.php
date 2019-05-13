@@ -30,7 +30,7 @@
                 </div>
                 <div id="navMenu" class="navbar-menu">
                     <div class="navbar-end">
-                        <a href="index.html" class="navbar-item is-active">HOME</a>
+                        <a href="<?php echo site_url() ?>/" class="navbar-item is-active">HOME</a>
                         <a href="<?php echo site_url() ?>/wines" class="navbar-item">WINE</a>
                         <a href="restaurant.html" class="navbar-item">RESTAURANT</a>
                         <a href="accommodation.html" class="navbar-item">ACCOMMODATION</a>
