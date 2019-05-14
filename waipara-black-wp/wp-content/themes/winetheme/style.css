@@ -78,14 +78,34 @@ body {
   
   
   .navbar {
-    background-color: #fff;
+    /* background-color: #fff;
     color: #222;
     -webkit-box-shadow: 0 4px 6px -6px #222;
-            box-shadow: 0 4px 6px -6px #222;
-    font-size: 12px;
+            box-shadow: 0 4px 6px -6px #222; */
+    /* font-size: 12px; */
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 1; 
+  }
+
+  #menu-primary {
+      background-color: #fff;
+      color: #222;
+      -webkit-box-shadow: 0 4px 6px -6px #222;
+              box-shadow: 0 4px 6px -6px #222;
+      font-size: 12px;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+      display: flex;
+      flex-direction: row;
+      /* height: 50px; */
+      align-content: center;
+      align-items: center;
+  }
+
+  #menu-primary.isResponsive {
+    flex-direction: column;
   }
   
   .navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover {

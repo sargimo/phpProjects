@@ -30,15 +30,27 @@
                 </div>
                 <div id="navMenu" class="navbar-menu">
                     <div class="navbar-end">
-                        <a href="<?php echo site_url() ?>/" class="navbar-item is-active">HOME</a>
-                        <a href="<?php echo site_url() ?>/wines" class="navbar-item">WINE</a>
+                        <!-- <a href="< ?php echo site_url() ?>/" class="navbar-item is-active">HOME</a>
+                        <a href="< ?php echo site_url() ?>/wines" class="navbar-item">WINE</a>
                         <a href="restaurant.html" class="navbar-item">RESTAURANT</a>
                         <a href="accommodation.html" class="navbar-item">ACCOMMODATION</a>
                         <a href="vineyards.html" class="navbar-item">VINEYARDS</a>
                         <a href="club.html" class="navbar-item">CLUB</a>
-                        <a href="contact.html" class="navbar-item">CONTACT</a>
+                        <a href="contact.html" class="navbar-item">CONTACT</a> -->
+                        <?php wp_nav_menu(array(
+                            'menu_class' => false,
+                            'theme_location' => 'primary-menu',
+                            'container' => false
+                        )); ?>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
+    <!-- <div class="nav-collapse">
+        < ?php wp_nav_menu(array(
+            'menu_class' => false,
+            'theme_location' => 'primary-menu',
+            'container' => false
+        )); ?>
+    </div> -->
