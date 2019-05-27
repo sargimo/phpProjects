@@ -1,0 +1,40 @@
+2019-05-27T06:40:38+00:00 CRITICAL Uncaught Error: Class 'wc_get_products' not found in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php:19
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-includes/template-loader.php(78): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php on line 19
+
+2019-05-27T06:40:53+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php:21
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-includes/template-loader.php(78): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php on line 21
+
+2019-05-27T06:40:53+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php:21
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-includes/template-loader.php(78): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php on line 21
+
+2019-05-27T06:43:43+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php:21
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-includes/template-loader.php(78): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php on line 21
+
+2019-05-27T06:46:49+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php on line 23
+
+2019-05-27T06:52:58+00:00 CRITICAL syntax error, unexpected end of file in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php on line 97
+
+2019-05-27T06:52:58+00:00 CRITICAL syntax error, unexpected end of file in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php on line 97
+
+2019-05-27T06:54:02+00:00 CRITICAL syntax error, unexpected '}' in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php on line 23
+
