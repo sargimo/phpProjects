@@ -7,25 +7,5 @@
   </div>
 </div>
 
-<div class="main-container">
-	<div class="main-grid">
-    
-    <?php
-    $args = array(
-    'post_type' => 'product',
-    'featured' => true
-    );
-    
-    $loop = wc_get_products($args);
-    
-    foreach ($loop as $product) {
 
-    }
-        ?>
-    
-    <?php 
-    ?>
-    
-</div>
-</div>
 <?php get_footer(); ?>

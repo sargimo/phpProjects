@@ -78,3 +78,7 @@ if ( !function_exists('piratebay_setup')) :
 
 endif;
 add_action('after_setup_theme', 'piratebay_setup');
+
+
+//customisation
+require_once get_template_directory() . '/inc/custom-meta-boxes.php';
