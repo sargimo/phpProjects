@@ -1,0 +1,114 @@
+2019-05-29T03:58:48+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php:3
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/functions.php(86): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-settings.php(499): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-config.php(90): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-load.php(37): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php on line 3
+
+2019-05-29T03:58:58+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php:3
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/functions.php(86): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-settings.php(499): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-config.php(90): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-load.php(37): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php on line 3
+
+2019-05-29T03:58:58+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php:3
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/functions.php(86): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-settings.php(499): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-config.php(90): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-load.php(37): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-admin/async-upload.php(20): require_once('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php on line 3
+
+2019-05-29T03:58:58+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php:3
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/functions.php(86): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-settings.php(499): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-config.php(90): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-load.php(37): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php on line 3
+
+2019-05-29T03:59:34+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php:3
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/functions.php(86): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-settings.php(499): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-config.php(90): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-load.php(37): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php on line 3
+
+2019-05-29T04:00:30+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php:3
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/functions.php(86): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-settings.php(499): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-config.php(90): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-load.php(37): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php on line 3
+
+2019-05-29T04:00:33+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php:3
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/functions.php(86): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-settings.php(499): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-config.php(90): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-load.php(37): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php on line 3
+
+2019-05-29T04:00:44+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php:3
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/functions.php(86): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-settings.php(499): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-config.php(90): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-load.php(37): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php on line 3
+
+2019-05-29T04:03:41+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php:2
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/functions.php(86): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-settings.php(499): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-config.php(90): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-load.php(37): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php on line 2
+
+2019-05-29T04:04:50+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php:2
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/functions.php(61): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-settings.php(499): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-config.php(90): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-load.php(37): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php on line 2
+
+2019-05-29T04:05:06+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php:2
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/functions.php(18): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-settings.php(499): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-config.php(90): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-load.php(37): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/inc/custom-hero.php on line 2
+
+2019-05-29T05:01:14+00:00 CRITICAL syntax error, unexpected '50' (T_LNUMBER), expecting ',' or ';' in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php on line 5
+
+2019-05-29T05:01:15+00:00 CRITICAL syntax error, unexpected '50' (T_LNUMBER), expecting ',' or ';' in /Applications/XAMPP/xamppfiles/htdocs/projects/phpprojects/the-pirate-bay/wp-content/themes/FoundationPress-master/front-page.php on line 5
+

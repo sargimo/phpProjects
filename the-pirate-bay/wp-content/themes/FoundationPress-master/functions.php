@@ -63,6 +63,7 @@ if ( !function_exists('piratebay_setup')) :
     {
         //add theme support
 
+        add_theme_support( 'customize-selective-refresh-widgets' );
         //register menus
         // register_nav_menus(array(
         //     'primary-menu' => __('Primary'),
@@ -71,8 +72,8 @@ if ( !function_exists('piratebay_setup')) :
         // ));
 
         //set the permalink structure
-        global $wp_rewrite;
-        $wp_rewrite->set_permalink_structure('/%postname%/');
+        // global $wp_rewrite;
+        // $wp_rewrite->set_permalink_structure('/%postname%/');
 
     }
 
@@ -81,4 +82,7 @@ add_action('after_setup_theme', 'piratebay_setup');
 
 
 //customisation
-require_once get_template_directory() . '/inc/custom-meta-boxes.php';
+require_once get_template_directory() . '/inc/customisation.php';
+
+require_once get_template_directory() . '/inc/custom-post-types.php';
+
