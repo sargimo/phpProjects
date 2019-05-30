@@ -33,4 +33,4 @@ $wp_customize->add_control(
 $wp_customize->selective_refresh->add_partial( 'home-hero-image', array(
     'selector' => '.hero-section', //class of object
     'render_callback' => '__return_false',
-) );
+));
